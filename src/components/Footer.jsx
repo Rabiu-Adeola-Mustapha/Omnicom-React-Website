@@ -1,4 +1,5 @@
 import React from 'react';
+import Omnicom from '../assets/Omnicom.jpg'
 import {
   FaDribbbleSquare,
   FaFacebookSquare,
@@ -11,7 +12,7 @@ const Footer = () => {
   return (
     <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
       <div>
-        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
+        <img className='w-[150px]' src={Omnicom} alt=''/>
         <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
         <div className='flex justify-between md:w-[75%] my-6'>
             <FaFacebookSquare size={30} />
@@ -25,10 +26,10 @@ const Footer = () => {
     <div>
         <h6 className='font-medium text-gray-400'>Solutions</h6>
         <ul>
-            <li className='py-2 text-sm'>Analytics</li>
-            <li className='py-2 text-sm'>Marketing</li>
-            <li className='py-2 text-sm'>Commerce</li>
-            <li className='py-2 text-sm'>Insights</li>
+            <li className='py-2 text-sm'>Telecomms</li>
+            <li className='py-2 text-sm'>Cloud</li>
+            <li className='py-2 text-sm'>Sotware</li>
+            <li className='py-2 text-sm'>Network</li>
         </ul>
     </div>
     <div>
@@ -37,7 +38,7 @@ const Footer = () => {
             <li className='py-2 text-sm'>Pricing</li>
             <li className='py-2 text-sm'>Documentation</li>
             <li className='py-2 text-sm'>Guides</li>
-            <li className='py-2 text-sm'>API Status</li>
+            
         </ul>
     </div>
     <div>
